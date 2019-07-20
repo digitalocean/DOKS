@@ -38,6 +38,7 @@ The following tools may prove helpful to developers.
 
 - [github.com/digitalocean/doks-example](https://github.com/digitalocean/doks-example): Collection of example applications that have been verified to run on DOKS.
 - [github.com/digitalocean/doks-debug](https://github.com/digitalocean/doks-debug): A Docker image with Kubernetes manifests for investigation and troubleshooting.
+- [github.com/digitalocean/clusterlint](https://github.com/digitalocean/clusterlint): A linter to check your live Kubernetes cluster for potential issues and bad practices.
 - [github.com/snormore/cilium-portmap](https://github.com/snormore/cilium-portmap): A container enabling hostPort support for Cilium (the CNI used in DOKS). Note that this is not needed on newer DOKS releases anymore.
 
 ## License
