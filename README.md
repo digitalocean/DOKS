@@ -18,7 +18,7 @@ Please prefer filing an issue in one of them if your feature request or bug repo
 - [godo](https://github.com/digitalocean/godo): The official DigitalOcean Go API client to support programmatic access to DOKS.
 - [kops](https://github.com/kubernetes/kops): kops helps you create, destroy, upgrade, and maintain Kubernetes clusters from the command line. It comes with initial support for running DIY Kubernetes clusters on DigitalOcean ([tutorial](https://github.com/kubernetes/kops/blob/master/docs/tutorial/digitalocean.md)).
 - [Cluster Management API implementation for DigitalOcean](https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean): Supports managing Kubernetes clusters on DigitalOcean through the [Cluster Management API](https://github.com/kubernetes-sigs/cluster-api).
-- [Kubernetes autoscaler](https://github.com/kubernetes/autoscaler): Autoscaling-related components for Kubernetes, including support for DigitalOcean DOKS.
+- [Kubernetes autoscaler](https://github.com/kubernetes/autoscaler): Autoscaling-related components for Kubernetes, including support for DigitalOcean DOKS. (Note that new features are first introduced into [our custom fork](https://github.com/digitalocean/autoscaler) before being upstreamed.)
 - [ExternalDNS](https://github.com/kubernetes-incubator/external-dns): ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers. Provides support for DigitalOcean DNS.
 
 ## Support Channels
