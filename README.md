@@ -18,6 +18,8 @@ Please prefer filing an issue in one of them if your feature request or bug repo
 - [godo](https://github.com/digitalocean/godo): The official DigitalOcean Go API client to support programmatic access to DOKS.
 - [kops](https://github.com/kubernetes/kops): kops helps you create, destroy, upgrade, and maintain Kubernetes clusters from the command line. It comes with initial support for running DIY Kubernetes clusters on DigitalOcean ([tutorial](https://github.com/kubernetes/kops/blob/master/docs/tutorial/digitalocean.md)).
 - [Cluster Management API implementation for DigitalOcean](https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean): Supports managing Kubernetes clusters on DigitalOcean through the [Cluster Management API](https://github.com/kubernetes-sigs/cluster-api).
+- [Kubernetes autoscaler](https://github.com/kubernetes/autoscaler): Autoscaling-related components for Kubernetes, including support for DigitalOcean DOKS.
+- [ExternalDNS](https://github.com/kubernetes-incubator/external-dns): ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers. Provides support for DigitalOcean DNS.
 
 ## Support Channels
 
@@ -36,9 +38,10 @@ The following list describes ways to reach out for support with regards to DOKS.
 
 The following tools may prove helpful to developers.
 
-- [github.com/digitalocean/doks-example](https://github.com/digitalocean/doks-example): Collection of example applications that have been verified to run on DOKS.
-- [github.com/digitalocean/doks-debug](https://github.com/digitalocean/doks-debug): A Docker image with Kubernetes manifests for investigation and troubleshooting.
+- [github.com/digitalocean/doks-example](https://github.com/digitalocean/doks-example): Example DigitalOcean Kubernetes workload with service exposed through a DO load-balancer.
 - [github.com/digitalocean/clusterlint](https://github.com/digitalocean/clusterlint): A linter to check your live Kubernetes cluster for potential issues and bad practices.
+- [github.com/digitalocean/doks-debug](https://github.com/digitalocean/doks-debug): A Docker image with Kubernetes manifests for investigation and troubleshooting.
+- [github.com/snormore/doks-examples](https://github.com/snormore/doks-examples): Collection of example applications that have been verified to run on DOKS.
 - [github.com/snormore/cilium-portmap](https://github.com/snormore/cilium-portmap): A container enabling hostPort support for Cilium (the CNI used in DOKS). Note that this is not needed on newer DOKS releases anymore.
 
 ## License
